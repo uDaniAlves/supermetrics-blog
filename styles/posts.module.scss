@@ -1,0 +1,54 @@
+.container {
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  label {
+    margin-right: 8px;
+  }
+
+  div > span {
+    margin-right: 8px;
+  }
+}
+.postsContainer {
+  display: flex;
+}
+
+.userList {
+  margin-right: 30px;
+
+  p {
+    white-space: nowrap;
+  }
+}
+
+.postsList {
+  p {
+    margin-top: 8px;
+  }
+}
+.userContainer {
+  padding: 4px;
+  background-color: #e1e1e1;
+  margin-top: 8px;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  &:hover {
+    filter: opacity(0.8);
+  }
+}
+
+.individualPostContainer {
+  background-color: #e1e1e1;
+  border-radius: 5px;
+  padding: 8px;
+  margin-top: 8px;
+}
